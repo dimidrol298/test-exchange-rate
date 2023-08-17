@@ -10,6 +10,12 @@ Then do a composer install and composer update
 ```
 composer install && composer update
 ```
+
+Create .env file
+```
+cp .env.example .env
+```
+
 Set up your connection with redis
 ```
 REDIS_HOST=127.0.0.1
