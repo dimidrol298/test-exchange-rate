@@ -10,6 +10,14 @@ Then do a composer install and composer update
 ```
 composer install && composer update
 ```
+Set up your connection with redis
+```
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+REDIS_CLIENT=predis
+```
+
 Then launch the worker
 php artisan queue:work --queue=high,redis
 
