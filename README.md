@@ -1,4 +1,4 @@
-# tic-tac-toe-php
+# test-exchange-rate
 
 ## Installation
 
