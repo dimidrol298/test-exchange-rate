@@ -19,7 +19,9 @@ REDIS_CLIENT=predis
 ```
 
 Then launch the worker
+```
 php artisan queue:work --queue=high,redis
+```
 
 ## Commands:
 To run the command to collect data, enter
